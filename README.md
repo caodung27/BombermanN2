@@ -127,70 +127,6 @@ As a fresher developer, we assume that the Bomberman game is one of the most sim
 
 - ![](readme/doria.png) *Doria* biết đuổi Bomber khi lại gần nhưng phạm vi rộng hơn Oneal, có tốc độ di chuyển tăng và có thể di chuyển xuyên Brick trong khi đuổi Bomber .
 
-## UML Class Diagram<a name="UML-class-diagram"></a>:clipboard:
-<!-- ![](UML_Diagrams/Control.jpeg) -->
-
-<div>
-	<h3>1. CONTROL</h3>
-    <div align="center">
-        <img src="UML_Diagrams/Control.png" alt="">
-    </div>
-    <br />
-	<div align="center">------------------------------------</div>
-    <br />
-	<h3>2. ENTITY</h3>
-    <h4>a) Animal</h4>
-    <div align="center">
-        <img src="UML_Diagrams/Animal.png" alt="">
-    </div>
-    <h4>b) Intelligent with "Doll" enemy</h4>
-    <div align="center">
-        <img src="UML_Diagrams/Intelligent_Doll.png" alt="">
-    </div>
-    <h4>c) Block</h4>
-    <div align="center">
-        <img src="UML_Diagrams/Block.png" alt="">
-    </div>
-    <h4>d) Items</h4>
-    <div align="center">
-        <img src="UML_Diagrams/Items.png" alt="">
-    </div>
-    <h4>e) Items with Entity</h4>
-    <div align="center">
-        <img src="UML_Diagrams/Items_Entity.png" alt="">
-    </div>
-    <h4>f) Animal with Entity</h4>
-    <div align="center">
-        <img src="UML_Diagrams/Animal_Entity.png" alt="">
-    </div>
-	<div align="center">------------------------------------</div>
-	<h3>3. FEATURES</h3>
-    <div align="center">
-        <img src="UML_Diagrams/Features.png" alt="">
-    </div>
-    <br />
-	<div align="center">------------------------------------</div>
-	<h3>4. GAMERUNNER</h3>
-    <div align="center">
-        <img src="UML_Diagrams/GameRunner.png" alt="">
-    </div>
-    <br />
-	<div align="center">------------------------------------</div>
-	<h3>5. GRAPHICS</h3>
-    <div align="center">
-        <img src="UML_Diagrams/Graphics.png" alt="">
-    </div>
-    <br />
-	<div align="center">------------------------------------</div>
-	<h3>6. LEVELS</h3>
-    <div align="center">
-        <img src="UML_Diagrams/Levels.png" alt="">
-    </div>
-    <br />
-    <div align="center">------------------------------------</div>
-</div>
-
-<br />
 
 <!-- FEATURES -->
 ## Features<a name="Features"> :triangular_flag_on_post:
@@ -217,7 +153,6 @@ we can master them better from now on :heart:
 </div>
 
 <br />
-
 
 ## References<a name="References">  :eye::tongue::eye:
 1. [phuctd99](https://github.com/phuctd99/bom)
