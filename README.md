@@ -1,22 +1,4 @@
-# BOMBERMAN GAME - BÀI TẬP LỚN OOP 
-
-</div>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/Nhathuy1305/OOP_BOMBERMAN_GAME.git">
-    <img src="res/images/ttsalpha4.0@0.5x.png" alt="Logo" width="200" height="200">
-  </a>
-
-  <h3 align="center">OOP BOMBERMAN PROJECT</h3>
-  <h4 align="center">Team Name: N2</h4>
-</div>
+# BOMBERMAN GAME - PROJECT OOP N2
 
 <!-- TABLE OF CONTENTS -->
 # Table of contents :round_pushpin:
@@ -144,3 +126,108 @@ As a fresher developer, we assume that the Bomberman game is one of the most sim
 - ![](readme/dahl.png) *Dahl* có tốc độ di chuyển thay đổi, lúc nhanh, lúc chậm.
 
 - ![](readme/doria.png) *Doria* biết đuổi Bomber khi lại gần nhưng phạm vi rộng hơn Oneal, có tốc độ di chuyển tăng và có thể di chuyển xuyên Brick trong khi đuổi Bomber .
+
+## UML Class Diagram<a name="UML-class-diagram"></a>:clipboard:
+<!-- ![](UML_Diagrams/Control.jpeg) -->
+
+<div>
+	<h3>1. CONTROL</h3>
+    <div align="center">
+        <img src="UML_Diagrams/Control.png" alt="">
+    </div>
+    <br />
+	<div align="center">------------------------------------</div>
+    <br />
+	<h3>2. ENTITY</h3>
+    <h4>a) Animal</h4>
+    <div align="center">
+        <img src="UML_Diagrams/Animal.png" alt="">
+    </div>
+    <h4>b) Intelligent with "Doll" enemy</h4>
+    <div align="center">
+        <img src="UML_Diagrams/Intelligent_Doll.png" alt="">
+    </div>
+    <h4>c) Block</h4>
+    <div align="center">
+        <img src="UML_Diagrams/Block.png" alt="">
+    </div>
+    <h4>d) Items</h4>
+    <div align="center">
+        <img src="UML_Diagrams/Items.png" alt="">
+    </div>
+    <h4>e) Items with Entity</h4>
+    <div align="center">
+        <img src="UML_Diagrams/Items_Entity.png" alt="">
+    </div>
+    <h4>f) Animal with Entity</h4>
+    <div align="center">
+        <img src="UML_Diagrams/Animal_Entity.png" alt="">
+    </div>
+	<div align="center">------------------------------------</div>
+	<h3>3. FEATURES</h3>
+    <div align="center">
+        <img src="UML_Diagrams/Features.png" alt="">
+    </div>
+    <br />
+	<div align="center">------------------------------------</div>
+	<h3>4. GAMERUNNER</h3>
+    <div align="center">
+        <img src="UML_Diagrams/GameRunner.png" alt="">
+    </div>
+    <br />
+	<div align="center">------------------------------------</div>
+	<h3>5. GRAPHICS</h3>
+    <div align="center">
+        <img src="UML_Diagrams/Graphics.png" alt="">
+    </div>
+    <br />
+	<div align="center">------------------------------------</div>
+	<h3>6. LEVELS</h3>
+    <div align="center">
+        <img src="UML_Diagrams/Levels.png" alt="">
+    </div>
+    <br />
+    <div align="center">------------------------------------</div>
+</div>
+
+<br />
+
+<!-- FEATURES -->
+## Features<a name="Features"> :triangular_flag_on_post:
+- Completed: UX/UI, sound of game, enhancing algorithms
+- Incompleted: Minvo, 2 players, multiple characters for choosing, …
+<br />
+
+<!-- CHALLENGES -->
+## Challenges<a name="Challenges">:bangbang:
+
+- Task allocation for each team member
+- Using platform for communication ([Trello](https://trello.com/b/Ac0ISkzt/bomber-game-oop-project-2022))
+- Working environment (Github)
+<br />
+	
+## Acknowledgments<a name="Acknowledgments">:brain:
+<div style="text-align:justify">
+We would want to express our gratitude to Tom for providing us with the chance to
+participate in this project and apply what we learned in theory into practice. This project's
+learning curve was steep, but it was well worth it for all of us. We have learned more about interface technologies to construct a functioning application
+that interacts with our project. Tom, we want to thank you again for all the hard work and expertise that you have
+put into your teaching. We'll make sure that all we've learned doesn't go to waste, and that
+we can master them better from now on :heart:
+</div>
+
+<br />
+
+
+## References<a name="References">  :eye::tongue::eye:
+1. [phuctd99](https://github.com/phuctd99/bom)
+2. [carlosflorencio](https://github.com/carlosflorencio/bomberman/blob/master/.project)
+3. [minhnq410](https://github.com/minhnq410/Bomberman_Assignment_2/tree/master/src/uet/oop/bomberman)
+4. [JavaFx Tutorial](https://openjfx.io/openjfx-docs/)
+5. [A* Intelligent](https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/a-star-algorithm#:~:text=PythonExplore%20Course-,What%20is%20an%20A*%20Algorithm%3F,shortest%20path%20to%20be%20taken.)
+
+<br />
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
+
