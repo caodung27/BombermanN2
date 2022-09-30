@@ -1,7 +1,5 @@
 # BOMBERMAN GAME - BÀI TẬP LỚN OOP 
 
-<div id="top" align="center">
-<img src="screenshots/Banner_For_Readme.png" alt="Banner">
 </div>
 
 [![Contributors][contributors-shield]][contributors-url]
