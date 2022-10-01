@@ -75,9 +75,9 @@ As a fresher developer, we assume that the Bomberman game is one of the most sim
 
 | Order | Task                                    |  Person   | Contribution |
 | :---- | :-------------------------------------- | :-------: | :----------: |
-| 1     | UI, Graphic, A* algorithm, Readme       |  Cao Dung |      34%     |
-| 2     | Move, Enemy, Bomberman, Item            | Tran Dung |      33%     |
-| 3     | Move, Enemy, Bomberman, Item            | Cong Hieu |      33%     |
+| 1     | UI, Graphic, A* algorithm, Readme       |  Cao Dung |      40%     |
+| 2     | Move, Enemy, Bomberman, Item            | Tran Dung |      30%     |
+| 3     | Move, MapTitle, Entity, Item            | Cong Hieu |      30%     |
 
 
 <!-- Game -->
