@@ -187,6 +187,7 @@ src/main/java/Bomberman
 │   ├── StageStartScene
 <br/>
 │   └── UIComponents
+<br/>
 ├── GameApp
 <br/>
 ├── GameFactory
