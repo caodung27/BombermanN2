@@ -46,7 +46,7 @@ This is our game project for our final lab in our Object-Oriented Programming co
 
 | Order |         Name          |     ID      |            Email            |                       Github account                                                     |
 | :---: | :-------------------: | :---------: | :-------------------------: | :---------------------------------------------------------: |
-|   1   | Cao Xuan Dung(Leader) | 21020290    |   21020290@vnu.edu.vn       |          [cxddcx271](https://github.com/cxddcx271)          | 
+|   1   | Cao Xuan Dung(Leader) | 21020290    |   21020290@vnu.edu.vn       |          [cxddcx271](https://github.com/caodung27)          | 
 |   2   | Tran Viet Dung(Base)  | 21020009    |   21020009@vnu.edu.vn       |          [SamoySamoy](https://github.com/SamoySamoy)        |
 |   3   | Cong Nghia Hieu(Base) | 21020540    |   21020540@vnu.edu.vn       |          [congnghiahieu](https://github.com/congnghiahieu)  |      
 ### Installation :dart: 
