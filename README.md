@@ -128,37 +128,68 @@ As a fresher developer, we assume that the Bomberman game is one of the most sim
 
 ## UML Class Diagram<a name="UML-class-diagram"></a>:clipboard:
 
+<br/>
 src/main/java/Bomberman
+<br/>
 ├── Conllisions
+<br/>
 │   ├── FlameEnemy3Handler
+<br/>
 ├── Components
+<br/>
 │   ├── Enemy
+<br/>
 │   │   ├── Enemy
+<br/>
 │   │   ├── Enemy1
+<br/>
 │   │   ├── Enemy2
+<br/>
 │   │   ├── Enemy3
+<br/>
 │   │   ├── Enemy4
+<br/>
 │   │   ├── Enemy5
+<br/>
 │   ├── BombComponent
+<br/>
 │   ├── BrickBreakComponent
+<br/>
 │   ├── FlameComponent
+<br/>
 │   └── PlayerComponent
+<br/>
 ├── Constants
+<br/>
 │   └── Constant
+<br/>
 ├── DynamicEntityState
+<br/>
 │   └── State
+<br/>
 ├── Menu
+<br/>
 │   ├── GameMenu
+<br/>
 │   ├── MainMenu
+<br/>
 │   └── MenuButton
+<br/>
 ├── Sounds
+<br/>
 │   └── SoundEffect
+<br/>
 ├── UI
+<br/>
 │   ├── EndingScene
+<br/>
 │   ├── StageStartScene
+<br/>
 │   └── UIComponents
 ├── GameApp
+<br/>
 ├── GameFactory
+<br/>
 └── GameType
 
 <br/>
