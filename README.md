@@ -91,43 +91,77 @@ As a fresher developer, we assume that the Bomberman game is one of the most sim
 - Intelligent: [A\* algorithms](https://www.geeksforgeeks.org/a-search-algorithm/)
 - Library: [JavaFx](https://openjfx.io), [FXGL](https://github.com/AlmasB/FXGL)
 
-## Mô tả về các đối tượng trong trò chơi
+## Description
 
-- ![](readme/player.png) *Bomber* là nhân vật chính của trò chơi. Bomber có thể di chuyển theo 4 hướng trái/phải/lên/xuống theo sự điều khiển của người chơi. 
+- ![](readme/player.png) *Bomber* is the main character of the game. Bomber can move in 4 directions left / right / up / down according to the control of the player. 
 
-- ![](readme/bomb.png) *Bomb* là đối tượng mà Bomber sẽ đặt. Khi đã được đặt, Bomber không thể di chuyển vào vị trí Bomb. Tuy nhiên ngay khi Bomber vừa đặt và kích hoạt Bomb tại ví trí của mình, Bomber có một lần được đi từ vị trí đặt Bomb ra vị trí bên cạnh. Sau khi kích hoạt 2.5s, Bomb sẽ tự nổ.
+- ![](readme/bomb.png) *Bomb* is the object that Bomber will place. Once placed, Bomber cannot move into Bomb position. However, as soon as the Bomber has placed and activated the Bomb at his position, the Bomber can once go from the location where the Bomb is placed to the next position. After activating for 2.5s, Bomb will explode by itself.
 
-- ![](readme/wall.png) *Wall* là đối tượng cố định, không thể phá hủy bằng Bomb cũng như không thể đặt Bomb lên được, Bomber không thể di chuyển vào đối tượng này
+- ![](readme/wall.png) *Wall* is a fixed object, cannot be destroyed by Bomb and cannot be placed on Bomb, Bomber cannot move on this object
 
-- ![](readme/brick.png) *Brick* là đối tượng không cho phép đặt Bomb lên nhưng có thể bị phá hủy bởi Bomb được đặt gần đó. Bomber không thể di chuyển vào vị trí Brick khi nó chưa bị phá hủy.
+- ![](readme/brick.png) *Brick* is an object that does not allow Bomb to be placed but can be destroyed by Bombs placed nearby. Bomber cannot move into Brick until it is destroyed.
 
-- ![](readme/portal.png) *Portal* là đối tượng được giấu phía sau một đối tượng Brick. Khi Brick đó bị phá hủy, Portal sẽ hiện ra và nếu tất cả Enemy đã bị tiêu diệt thì người chơi có thể qua Level khác bằng cách di chuyển vào vị trí của Portal.
+- ![](readme/portal.png) *Portal* is the object hidden behind a Brick object. When that Brick is destroyed, the Portal will appear and if all Enemys have been destroyed the player can move to another Level by moving into the Portal's location.
 
-*Item* cũng được giấu phía sau Brick và chỉ hiện ra khi Brick bị phá hủy. Bomber có thể sử dụng Item bằng cách di chuyển vào vị trí của Item. Thông tin về chức năng của các Item được liệt kê như sau:
+*Item* is also hidden behind the Brick and only shows up when the Brick is destroyed. Bomber can use Item by moving into Item's position. Information about the function of the Item is listed as follows:
+- ![](readme/powerup_speed.png) *SpeedItem* This item will increase Bomber's movement speed.
 
-- ![](readme/powerup_speed.png) *SpeedItem* Item này sẽ giúp Bomber được tăng tốc độ di chuyển.
+- ![](readme/powerup_bombs.png) *BombItem* This item increases the number of Bombs that can be placed by one.
 
-- ![](readme/powerup_bombs.png) *BombItem* Item này giúp tăng số lượng Bomb có thể đặt thêm một.
+- ![](readme/powerup_flamepass.png) *FlamePassItem* When using this Item Bomber will be equipped with Gold armor and can pass through Flame without damage.
 
-- ![](readme/powerup_flamepass.png) *FlamePassItem* Khi sử dụng Item này Bomber sẽ được mặc giáp Vàng và có thể đi qua Flame mà không bị sao.
+- ![](readme/powerup_flames.png) *FlameItem* This item increases the Bomb's range when it explodes.
 
-- ![](readme/powerup_flames.png) *FlameItem* Item này giúp tăng phạm vi ảnh hưởng của Bomb khi nổ.
+- ![](readme/powerup_life.png) *LifeItem* When using this Item Bomber will gain 1 more life.
 
-- ![](readme/powerup_life.png) *LifeItem* Khi sử dụng Item này Bomber sẽ được tăng thêm 1 mạng nữa.
+*Enemy* are the objects that the Bomber must destroy in order to pass the Level. Enemy can move randomly or chase Bomber on its own depending on the type of Enemy. Types of Enemy will be described in detail below:
 
-*Enemy* là các đối tượng mà Bomber phải tiêu diệt hết để có thể qua Level. Enemy có thể di chuyển ngẫu nhiên hoặc tự đuổi theo Bomber tùy theo loại Enemy. Các loại Enemy sẽ được mô tả cụ thể sau đây:
+- ![](readme/ballom.png) *Ballom* is the simplest Enemy, moving randomly at a slow speed.
 
-- ![](readme/ballom.png) *Ballom* là Enemy đơn giản nhất, di chuyển ngẫu nhiên với tốc độ chậm.
+- ![](readme/oneal.png) *Oneal* knows how to chase Bomber when approaching, has increased movement speed while chasing Bomber.
 
-- ![](readme/oneal.png) *Oneal* biết đuổi Bomber khi lại gần, có tốc độ di chuyển tăng trong khi đuổi Bomber.
+- ![](readme/pass.png) *Pass* moves randomly at pretty fast speed. When destroyed will spawn 2 more *Ballom*.
 
-- ![](readme/pass.png) *Pass* di chuyển ngẫu nhiên với tốc độ khá nhanh. Khi bị tiêu diệt sẽ sinh ra thêm 2 *Ballom*.
+- ![](readme/dahl.png) *Dahl* has variable movement speed, sometimes fast, sometimes slow.
 
-- ![](readme/dahl.png) *Dahl* có tốc độ di chuyển thay đổi, lúc nhanh, lúc chậm.
+- ![](readme/doria.png) *Doria* knows how to chase Bomber when close but has a wider range than Oneal, has increased movement speed and can move through Brick while chasing Bomber.
 
-- ![](readme/doria.png) *Doria* biết đuổi Bomber khi lại gần nhưng phạm vi rộng hơn Oneal, có tốc độ di chuyển tăng và có thể di chuyển xuyên Brick trong khi đuổi Bomber .
+## UML Class Diagram<a name="UML-class-diagram"></a>:clipboard:
 
+src/main/java/Bomberman
+├── Conllisions
+│   ├── FlameEnemy3Handler
+├── Components
+│   ├── Enemy
+│   │   ├── Enemy
+│   │   ├── Enemy1
+│   │   ├── Enemy2
+│   │   ├── Enemy3
+│   │   ├── Enemy4
+│   │   ├── Enemy5
+│   ├── BombComponent
+│   ├── BrickBreakComponent
+│   ├── FlameComponent
+│   └── PlayerComponent
+├── Constants
+│   └── Constant
+├── DynamicEntityState
+│   └── State
+├── Menu
+│   ├── GameMenu
+│   ├── MainMenu
+│   └── MenuButton
+├── Sounds
+│   └── SoundEffect
+├── UI
+│   ├── EndingScene
+│   ├── StageStartScene
+│   └── UIComponents
+├── GameApp
+├── GameFactory
+└── GameType
 
+<br/>
 <!-- FEATURES -->
 ## Features<a name="Features"> :triangular_flag_on_post:
 - Completed: UX/UI, sound of game, enhancing algorithms
@@ -155,11 +189,10 @@ we can master them better from now on :heart:
 <br />
 
 ## References<a name="References">  :eye::tongue::eye:
-1. [phuctd99](https://github.com/phuctd99/bom)
-2. [carlosflorencio](https://github.com/carlosflorencio/bomberman/blob/master/.project)
-3. [minhnq410](https://github.com/minhnq410/Bomberman_Assignment_2/tree/master/src/uet/oop/bomberman)
-4. [JavaFx Tutorial](https://openjfx.io/openjfx-docs/)
-5. [A* Intelligent](https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/a-star-algorithm#:~:text=PythonExplore%20Course-,What%20is%20an%20A*%20Algorithm%3F,shortest%20path%20to%20be%20taken.)
+1. [bqcuong](https://github.com/bqcuong/bomberman-starter)
+2. [minhnq410](https://github.com/minhnq410/Bomberman_Assignment_2/tree/master/src/uet/oop/bomberman)
+3. [JavaFx Tutorial](https://openjfx.io/openjfx-docs/)
+4. [A* Intelligent](https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/a-star-algorithm#:~:text=PythonExplore%20Course-,What%20is%20an%20A*%20Algorithm%3F,shortest%20path%20to%20be%20taken.)
 
 <br />
 
