@@ -46,9 +46,9 @@ This is our game project for our final lab in our Object-Oriented Programming co
 
 | Order |         Name          |     ID      |            Email            |                       Github account                                                     |
 | :---: | :-------------------: | :---------: | :-------------------------: | :---------------------------------------------------------: |
-|   1   |     Cao Xuan Dung     | 21020290    |   21020290@vnu.edu.vn       |          [cxddcx271](https://github.com/cxddcx271)          | 
-|   2   |     Tran Viet Dung    | 21020009    |   21020009@vnu.edu.vn       |          [SamoySamoy](https://github.com/SamoySamoy)        |
-|   3   |     Cong Nghia Hieu   | 21020540    |   21020540@vnu.edu.vn       |          [congnghiahieu](https://github.com/congnghiahieu)  |      
+|   1   | Cao Xuan Dung(Leader) | 21020290    |   21020290@vnu.edu.vn       |          [cxddcx271](https://github.com/cxddcx271)          | 
+|   2   | Tran Viet Dung(Base)  | 21020009    |   21020009@vnu.edu.vn       |          [SamoySamoy](https://github.com/SamoySamoy)        |
+|   3   | Cong Nghia Hieu(Base) | 21020540    |   21020540@vnu.edu.vn       |          [congnghiahieu](https://github.com/congnghiahieu)  |      
 ### Installation :dart: 
 
 1. Open the terminal on your IDE
@@ -126,6 +126,7 @@ As a fresher developer, we assume that the Bomberman game is one of the most sim
 
 - ![](readme/doria.png) *Doria* knows how to chase Bomber when close but has a wider range than Oneal, has increased movement speed and can move through Brick while chasing Bomber.
 
+
 ## UML Class Diagram<a name="UML-class-diagram"></a>:clipboard:
 
 <br/>
@@ -193,6 +194,8 @@ src/main/java/Bomberman
 └── GameType
 
 <br/>
+
+
 <!-- FEATURES -->
 ## Features<a name="Features"> :triangular_flag_on_post:
 - Completed: UX/UI, sound of game, enhancing algorithms
